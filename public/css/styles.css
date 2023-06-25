@@ -20,7 +20,7 @@
 }
 
 .footer {
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
@@ -31,5 +31,50 @@
 .footer p {
 	margin-top: 25px;
 	font-size: 12px;
-  color: #fff;
+    color: #fff;
 }
+
+.btn-compose {
+    background-color: #1abc9c;
+    position: fixed;
+    bottom: 50px;
+    right: 115px;
+    z-index: 9999; /* Set a high z-index value to keep the button above other elements */
+    margin-bottom: 50px;
+    border: #fff;
+    border-radius: 20px;
+  }
+
+.btn-compose:hover {
+    background-color: #138a72;
+}  
+
+.publish-btn {
+    margin-top: 20px;
+    background-color: #1abc9c;
+    border: #fff;
+    border-radius: 20px;
+}
+
+.publish-btn:hover {
+    background-color: #138a72;
+}
+
+.compose {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #1abc9c;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+  }
+
+  .contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .contact-info p {
+    margin-bottom: 5px;
+  }

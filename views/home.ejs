@@ -17,10 +17,14 @@
         </h1>
         <p>
             <%= post.body.substring(0, 100) + " ..." %> 
-            <a href="/posts/<%=post.title%>">Read More</a>
+            <a href="/posts/<%=post.title%>" style="color: #1abc9c;" >Read More</a>
         </p>
 
         <% }); %>
 
 
-            <%- include('partials/footer') %>
+        <a href="/compose" class="btn btn-primary btn-lg btn-compose">
+             <strong>Compose +</strong>
+        </a>
+
+<%- include('partials/footer') %>
