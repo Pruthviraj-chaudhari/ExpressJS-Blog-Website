@@ -22,7 +22,7 @@ It is built using ExpressJS and EJS, leveraging the power of server-side renderi
 To get a local copy of the project up and running, follow these steps:
 
 1. **Clone** the repository:
-   git clone https://github.com/pruthviraj-chaudhari/blog-website.git
+   git clone https://github.com/Pruthviraj-chaudhari/ExpressJS-Blog-Website
 
 2. Navigate to the project directory:
    cd blog-website
